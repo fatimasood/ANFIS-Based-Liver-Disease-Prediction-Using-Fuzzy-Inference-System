@@ -63,8 +63,9 @@ The FIS model uses **expert-defined rules** with triangular membership functions
 
 ### FIS Architecture
 
-![FIS Architecture](<img width="1220" height="542" alt="image" src="https://github.com/user-attachments/assets/b5431e1e-e8e5-417d-bb26-0f1264b47efb" />
-)
+![FIS Architecture]
+<img width="1220" height="542" alt="image" src="https://github.com/user-attachments/assets/022bec6b-5ede-4c74-8ef0-68bb328028be" />
+
 
 ---
 
@@ -80,8 +81,8 @@ Layer 3 – Normalization
 Layer 4 – Consequent Layer
 Layer 5 – Output Layer
 
-![ANFIS Architecture](<img width="1220" height="542" alt="image" src="https://github.com/user-attachments/assets/e6064c91-4318-43a6-a8d7-161b5760c7e6" />
-)
+![ANFIS Architecture]<img width="1220" height="542" alt="image" src="https://github.com/user-attachments/assets/c4e59d9e-87a4-463c-8cda-16a267946ab2" />
+
 
 ![ANFIS Network Architecture](<img width="1105" height="541" alt="image" src="https://github.com/user-attachments/assets/80473b07-eeca-47b4-bd63-0957ddf3e78b" />
 
@@ -97,12 +98,6 @@ The models were evaluated using:
 * Recall
 * F1 Score
 * ROC Curve
-
-### Confusion Matrix
-
-![Confusion Matrix](<img width="640" height="547" alt="image" src="https://github.com/user-attachments/assets/daee996a-750f-4515-8907-6cdf39fc9b45" />
-)
-
 ---
 
 ## Technologies Used
@@ -136,9 +131,11 @@ Install dependencies
 ```
 pip install -r requirements.txt
 ```
-
 Run the notebook
 
 ```
 jupyter notebook notebooks/liver_disease_fis_anfis.ipynb
 ```
+
+Note: The objective of this project was learning Fuzzy Inference System (FIS) and an AdaptiveNeuro-Fuzzy Inference System (ANFIS) not to acheive high accuracy....
+
